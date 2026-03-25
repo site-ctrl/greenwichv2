@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rates | Greenwich Plumbers | Transparent 24hr Pricing London</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@700&display=swap');
+      
+        :root { --teal: #0F766E; }
+        .tail-container { font-family: 'Inter', system_ui, sans-serif; }
+      
+        .nav-link {
+            position: relative;
+        }
+        .nav-link:after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 2px;
+            bottom: -2px;
+            left: 0;
+            background-color: #0F766E;
+            transition: all 0.3s ease;
+        }
+        .nav-link:hover:after { width: 100%; }
+
+        .rate-card {
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        .rate-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 25px 50px -12px rgb(15 118 110 / 0.25);
+        }
+
+        .price {
+            font-size: 2.25rem;
+            line-height: 1;
+        }
+    </style>
+</head>
+<body class="tail-container bg-white text-gray-900 overflow-x-hidden">
+
+    <!-- NAVBAR -->
+    <nav class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-6 py-5 flex justify-between items-center">
+            <!-- Logo -->
+            <a href="index.html">
+                <img src="logo.png" 
+                     alt="Greenwich Plumbers Logo"
+                     class="h-28 w-auto transition-all hover:scale-105">
+            </a>
+           
+            <!-- Menu Links -->
+            <div class="hidden md:flex items-center gap-8 text-base font-medium">
+                <a href="index.html" class="nav-link hover:text-teal-600 transition-colors">Home</a>
+                <a href="services.html" class="nav-link hover:text-teal-600 transition-colors">Services</a>
+                <a href="rates.html" class="nav-link text-teal-700 font-semibold">Rates</a>
+                <a href="guarantees.html" class="nav-link hover:text-teal-600 transition-colors">Guarantees</a>
+                <a href="contact.html" class="nav-link hover:text-teal-600 transition-colors">Contact</a>
+            </div>
+
+            <!-- Call Buttons -->
+            <div class="flex items-center gap-4">
+                <a href="https://wa.me/447961618546?text=Hi%20Greenwich%20Plumbers%2C%20I%20need%20urgent%20help!"
+                   target="_blank"
+                   class="hidden sm:flex items-center gap-2 bg-green-500 hover:bg-green-600 text-white px-5 py-2.5 rounded-full text-sm font-semibold transition-all">
+                    <i class="fab fa-whatsapp"></i> WhatsApp
+                </a>
+              
+                <a href="tel:07961618546"
+                   class="bg-teal-700 hover:bg-teal-800 text-white px-6 py-3 rounded-full font-semibold flex items-center gap-2 shadow-md transition-all">
+                    <i class="fas fa-phone"></i>
+                    <span class="hidden sm:inline">07961 618 546</span>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <header class="bg-gradient-to-br from-teal-800 to-teal-900 text-white py-24">
+        <div class="max-w-7xl mx-auto px-6 text-center">
+            <div class="inline-flex items-center gap-2 bg-white/90 text-teal-900 px-6 py-2 rounded-3xl font-bold text-lg mb-6">
+                <i class="fas fa-tags"></i> 10% OFF ALL SERVICES
+            </div>
+            <h1 class="text-5xl md:text-6xl font-bold leading-tight tracking-tighter mb-6">
+                Transparent Rates.<br>Superior Service.
+            </h1>
+            <p class="text-2xl md:text-3xl font-light max-w-2xl mx-auto">
+                London's superior 24hr service company will fix it!<br>
+                <span class="text-teal-300">In the meantime… pop the kettle on!</span>
+            </p>
+            <div class="mt-10 flex flex-wrap justify-center gap-4">
+                <a href="tel:07961618546" 
+                   class="bg-white text-teal-800 font-bold text-xl px-10 py-6 rounded-3xl flex items-center gap-3 hover:scale-105 transition-all">
+                    <i class="fas fa-phone"></i> CALL NOW
+                </a>
+                <a href="https://wa.me/447961618546?text=Hi%20Greenwich%20Plumbers%2C%20I%20need%20urgent%20help!"
+                   target="_blank" 
+                   class="bg-green-500 font-bold text-xl px-10 py-6 rounded-3xl flex items-center gap-3 hover:scale-105 transition-all">
+                    <i class="fab fa-whatsapp text-3xl"></i> WhatsApp Us
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- RATES INTRODUCTION -->
+    <section class="py-16 bg-gray-50">
+        <div class="max-w-5xl mx-auto px-6">
+            <div class="text-center mb-12">
+                <h2 class="text-4xl font-bold mb-4">Clear, Honest &amp; Transparent Pricing</h2>
+                <p class="text-xl text-gray-600 max-w-2xl mx-auto">
+                    All work is charged per hour + VAT with a 1-hour minimum. 
+                    Then billed in 15-minute increments. Fixed price quotes available on request.
+                </p>
+            </div>
+
+            <!-- PROMO BAR -->
+            <div class="bg-gradient-to-r from-red-600 to-rose-600 text-white rounded-3xl p-8 text-center mb-16">
+                <div class="flex items-center justify-center gap-3 text-2xl font-bold">
+                    <i class="fas fa-tags"></i>
+                    <span>10% OFF ALL LABOUR — Just mention this website when you call!</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- WEEKDAY RATES -->
+    <section class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="flex items-center gap-4 mb-10">
+                <div class="flex-1 h-px bg-gray-200"></div>
+                <h2 class="text-4xl font-bold text-center whitespace-nowrap">Monday to Friday</h2>
+                <div class="flex-1 h-px bg-gray-200"></div>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Plumbing -->
+                <div class="rate-card bg-white border border-gray-100 rounded-3xl p-8">
+                    <div class="flex items-center gap-4 mb-6">
+                        <i class="fas fa-faucet text-4xl text-teal-600"></i>
+                        <h3 class="text-2xl font-semibold">Plumbing</h3>
+                    </div>
+                    <div class="space-y-6">
+                        <div class="flex justify-between items-baseline">
+                            <span class="text-gray-600">7am – 7pm</span>
+                            <span class="price font-bold text-teal-700">£150</span>
+                        </div>
+                        <div class="flex justify-between items-baseline">
+                            <span class="text-gray-600">7pm – 12am</span>
+                            <span class="price font-bold text-teal-700">£195</span>
+                        </div>
+                        <div class="flex justify-between items-baseline">
+                            <span class="text-gray-600">12am – 7am</span>
+                            <span class="price font-bold text-teal-700">£350</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Heating & Boilers -->
+                <div class="rate-card bg-white border border-gray-100 rounded-3xl p-8">
+                    <div class="flex items-center gap-4 mb-6">
+                        <i class="fas fa-fire text-4xl text-red-600"></i>
+                        <h3 class="text-2xl font-semibold">Heating &amp; Boilers</h3>
+                    </div>
+                    <div class="space-y-6">
+                        <div class="flex justify-between items-baseline">
+                            <span class="text-gray-600">7am – 7pm</span>
+                            <span class="price font-bold text-teal-700">£150</span>
+                        </div>
+                        <div class="flex justify-between items-baseline">
+                            <span class="text-gray-600">7pm – 12am</span>
+                            <span class="price font-bold text-teal-700">£200</span>
+                        </div>
+                        <div class="flex justify-between items-baseline">
+                            <span class="text-gray-600">12am – 7am</span>
+                            <span class="price font-bold text-teal-700">£350</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Drainage -->
+                <div class="rate-card bg-white border border-gray-100 rounded-3xl p-8">
+                    <div class="flex items-center gap-4 mb-6">
+                        <i class="fas fa-tint text-4xl text-blue-600"></i>
+                        <h3 class="text-2xl font-semibold">Drainage</h3>
+                    </div>
+                    <div class="space-y-6">
+                        <div class="flex justify-between items-baseline">
+                            <span class="text-gray-600">7am – 7pm</span>
+                            <span class="price font-bold text-teal-700">£160</span>
+                        </div>
+                        <div class="flex justify-between items-baseline">
+                            <span class="text-gray-600">7pm – 12am</span>
+                            <span class="price font-bold text-teal-700">£205</span>
+                        </div>
+                        <div class="flex justify-between items-baseline">
+                            <span class="text-gray-600">12am – 7am</span>
+                            <span class="price font-bold text-teal-700">£375</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Electrics -->
+                <div class="rate-card bg-white border border-gray-100 rounded-3xl p-8">
+                    <div class="flex items-center gap-4 mb-6">
+                        <i class="fas fa-bolt text-4xl text-yellow-600"></i>
+                        <h3 class="text-2xl font-semibold">Electrics</h3>
+                    </div>
+                    <div class="space-y-6">
+                        <div class="flex justify-between items-baseline">
+                            <span class="text-gray-600">7am – 7pm</span>
+                            <span class="price font-bold text-teal-700">£125</span>
+                        </div>
+                        <div class="flex justify-between items-baseline">
+                            <span class="text-gray-600">7pm – 12am</span>
+                            <span class="price font-bold text-teal-700">£180</span>
+                        </div>
+                        <div class="flex justify-between items-baseline">
+                            <span class="text-gray-600">12am – 7am</span>
+                            <span class="price font-bold text-teal-700">£350</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Air Conditioning -->
+                <div class="rate-card bg-white border border-gray-100 rounded-3xl p-8">
+                    <div class="flex items-center gap-4 mb-6">
+                        <i class="fas fa-snowflake text-4xl text-cyan-600"></i>
+                        <h3 class="text-2xl font-semibold">Air Conditioning</h3>
+                    </div>
+                    <div class="space-y-6">
+                        <div class="flex justify-between items-baseline">
+                            <span class="text-gray-600">7am – 7pm</span>
+                            <span class="price font-bold text-teal-700">£135</span>
+                        </div>
+                        <div class="flex justify-between items-baseline">
+                            <span class="text-gray-600">7pm – 12am</span>
+                            <span class="price font-bold text-teal-700">£190</span>
+                        </div>
+                        <div class="flex justify-between items-baseline">
+                            <span class="text-gray-600">12am – 7am</span>
+                            <span class="price font-bold text-teal-700">£350</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Carpentry / Roofing / Building (combined for space) -->
+                <div class="rate-card bg-white border border-gray-100 rounded-3xl p-8 lg:col-span-1">
+                    <div class="flex items-center gap-4 mb-6">
+                        <i class="fas fa-tools text-4xl text-amber-600"></i>
+                        <h3 class="text-2xl font-semibold">Carpentry • Roofing • Building</h3>
+                    </div>
+                    <div class="space-y-6 text-sm">
+                        <div><strong>7am–7pm:</strong> £120 – £125</div>
+                        <div><strong>7pm–12am:</strong> £170 – £180</div>
+                        <div><strong>12am–7am:</strong> £325 – £350</div>
+                        <p class="text-xs text-gray-500 pt-4 border-t">Exact rate depends on trade &amp; job complexity</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- WEEKEND RATES -->
+    <section class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="flex items-center gap-4 mb-10">
+                <div class="flex-1 h-px bg-gray-200"></div>
+                <h2 class="text-4xl font-bold text-center whitespace-nowrap flex items-center gap-3">
+                    <span>Weekends &amp; Bank Holidays</span>
+                    <span class="text-2xl">📅</span>
+                </h2>
+                <div class="flex-1 h-px bg-gray-200"></div>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Similar cards for weekends with higher prices -->
+                <div class="rate-card bg-white border border-gray-100 rounded-3xl p-8">
+                    <div class="flex items-center gap-4 mb-6">
+                        <i class="fas fa-faucet text-4xl text-teal-600"></i>
+                        <h3 class="text-2xl font-semibold">Plumbing</h3>
+                    </div>
+                    <div class="space-y-6">
+                        <div class="flex justify-between items-baseline">
+                            <span class="text-gray-600">7am – 7pm</span>
+                            <span class="price font-bold text-teal-700">£195</span>
+                        </div>
+                        <div class="flex justify-between items-baseline">
+                            <span class="text-gray-600">7pm – 12am</span>
+                            <span class="price font-bold text-teal-700">£230</span>
+                        </div>
+                        <div class="flex justify-between items-baseline">
+                            <span class="text-gray-600">12am – 7am</span>
+                            <span class="price font-bold text-teal-700">£375</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="rate-card bg-white border border-gray-100 rounded-3xl p-8">
+                    <div class="flex items-center gap-4 mb-6">
+                        <i class="fas fa-fire text-4xl text-red-600"></i>
+                        <h3 class="text-2xl font-semibold">Heating &amp; Boilers</h3>
+                    </div>
+                    <div class="space-y-6">
+                        <div class="flex justify-between items-baseline">
+                            <span class="text-gray-600">7am – 7pm</span>
+                            <span class="price font-bold text-teal-700">£200</span>
+                        </div>
+                        <div class="flex justify-between items-baseline">
+                            <span class="text-gray-600">7pm – 12am</span>
+                            <span class="price font-bold text-teal-700">£235</span>
+                        </div>
+                        <div class="flex justify-between items-baseline">
+                            <span class="text-gray-600">12am – 7am</span>
+                            <span class="price font-bold text-teal-700">£375</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="rate-card bg-white border border-gray-100 rounded-3xl p-8">
+                    <div class="flex items-center gap-4 mb-6">
+                        <i class="fas fa-tint text-4xl text-blue-600"></i>
+                        <h3 class="text-2xl font-semibold">Drainage</h3>
+                    </div>
+                    <div class="space-y-6">
+                        <div class="flex justify-between items-baseline">
+                            <span class="text-gray-600">7am – 7pm</span>
+                            <span class="price font-bold text-teal-700">£210</span>
+                        </div>
+                        <div class="flex justify-between items-baseline">
+                            <span class="text-gray-600">7pm – 12am</span>
+                            <span class="price font-bold text-teal-700">£240</span>
+                        </div>
+                        <div class="flex justify-between items-baseline">
+                            <span class="text-gray-600">12am – 7am</span>
+                            <span class="price font-bold text-teal-700">£400</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Additional weekend cards can be added similarly if needed -->
+            </div>
+        </div>
+    </section>
+
+    <!-- IMPORTANT NOTES -->
+    <section class="py-20 bg-white border-t">
+        <div class="max-w-4xl mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-10">Important Information</h2>
+            <div class="grid md:grid-cols-2 gap-8 text-lg">
+                <div class="space-y-6">
+                    <div class="flex gap-4">
+                        <i class="fas fa-check text-teal-600 text-2xl mt-1"></i>
+                        <div>1 hour minimum charge, then billed in 15-minute increments</div>
+                    </div>
+                    <div class="flex gap-4">
+                        <i class="fas fa-check text-teal-600 text-2xl mt-1"></i>
+                        <div>All prices shown are + VAT</div>
+                    </div>
+                    <div class="flex gap-4">
+                        <i class="fas fa-check text-teal-600 text-2xl mt-1"></i>
+                        <div>Materials supplied by us include a 30% trade charge</div>
+                    </div>
+                </div>
+                <div class="space-y-6">
+                    <div class="flex gap-4">
+                        <i class="fas fa-check text-teal-600 text-2xl mt-1"></i>
+                        <div>Fixed price quotes available on most jobs</div>
+                    </div>
+                    <div class="flex gap-4">
+                        <i class="fas fa-check text-teal-600 text-2xl mt-1"></i>
+                        <div>Fully itemised invoices with start/finish times</div>
+                    </div>
+                    <div class="flex gap-4">
+                        <i class="fas fa-check text-teal-600 text-2xl mt-1"></i>
+                        <div>We accept all major credit &amp; debit cards</div>
+                    </div>
+                </div>
+            </div>
+            <p class="text-center text-gray-500 mt-12 text-sm">
+                Bank Holidays &amp; Christmas/New Year may incur premium rates — please ask when booking.
+            </p>
+        </div>
+    </section>
+
+    <!-- CTA SECTION -->
+    <section class="py-20 bg-teal-900 text-white">
+        <div class="max-w-4xl mx-auto px-6 text-center">
+            <h2 class="text-5xl font-bold mb-6">Ready for a fast, fair quote?</h2>
+            <p class="text-2xl mb-10">Call us now — real people answer 24/7</p>
+            <a href="tel:07961618546" 
+               class="inline-flex items-center gap-4 bg-white text-teal-900 hover:bg-teal-100 font-bold text-3xl px-16 py-8 rounded-3xl transition-all">
+                <i class="fas fa-phone"></i>
+                <span>07961 618 546</span>
+            </a>
+            <div class="mt-8">
+                <a href="https://wa.me/447961618546?text=Hi%20Greenwich%20Plumbers%2C%20can%20I%20have%20a%20quote%20please?" 
+                   target="_blank"
+                   class="text-teal-300 hover:text-white text-lg inline-flex items-center gap-2">
+                    <i class="fab fa-whatsapp text-2xl"></i> Or message us on WhatsApp
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-teal-900 text-white py-16">
+        <div class="max-w-7xl mx-auto px-6 text-center">
+            <a href="index.html">
+                <img src="logo.png" alt="Greenwich Plumbers Logo" class="h-20 mx-auto mb-6 opacity-90">
+            </a>
+            <p class="text-4xl font-bold tracking-tight">Greenwich Plumbers</p>
+            <a href="tel:07961618546" class="text-5xl font-bold block mt-6 hover:text-teal-300 transition-colors">07961 618 546</a>
+            <p class="mt-8 text-xl">Serving Greenwich &amp; all of London – 24/7!!!</p>
+            <p class="mt-12 text-sm opacity-70">NOT JUST LOCAL PLUMBERS</p>
+        </div>
+    </footer>
+
+    <!-- FLOATING WHATSAPP -->
+    <a href="https://wa.me/447961618546?text=Hi%20Greenwich%20Plumbers%2C%20I%20need%20urgent%20help!"
+       target="_blank"
+       class="fixed bottom-6 right-6 bg-green-500 hover:bg-green-600 text-white w-16 h-16 rounded-2xl flex items-center justify-center shadow-2xl text-4xl z-[9999] transition-all hover:scale-110">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- TAWK.TO LIVE CHAT WIDGET -->
+    <script type="text/javascript">
+    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+    (function(){
+        var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+        s1.async=true;
+        s1.src='https://embed.tawk.to/69c2aea5fb7ce31c36765265/1jkg7kedl';
+        s1.charset='UTF-8';
+        s1.setAttribute('crossorigin','*');
+        s0.parentNode.insertBefore(s1,s0);
+    })();
+    </script>
+
+    <script>
+        // No additional JS needed for this static rates page
+    </script>
+</body>
+</html>
